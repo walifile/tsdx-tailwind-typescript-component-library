@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -35,16 +35,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "pivit-components",
+  "name": "your-package-name",
   "author": "wali ahmad",
-  "module": "dist/pivit-components.esm.js",
+  "module": "dist/your-package-name.esm.js",
   "size-limit": [
     {
-      "path": "dist/pivit-components.cjs.production.min.js",
+      "path": "dist/your-package-name.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/pivit-components.esm.js",
+      "path": "dist/your-package-name.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -71,13 +71,6 @@
     "tailwindcss": "^3.3.2",
     "tsdx": "^0.14.1",
     "tslib": "^2.5.0",
-    "typescript": "^4.9.5",
-    "@types/react-table": "^7.7.14",
-    "react-table": "^7.8.0"
-  },
-  "dependencies": {
-    "styled-components": "^6.0.0-rc.1",
-    "@geist-ui/core": "^2.3.8",
-    "@geist-ui/icons": "^1.0.2"
+    "typescript": "^4.9.5"
   }
 }
